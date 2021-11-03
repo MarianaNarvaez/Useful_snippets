@@ -1,0 +1,21 @@
+Looking for container: 
+docker ps
+docker ps -a
+
+Stop container: docker stop a89 (tres primeros números del container)
+Delete container: docker rm 
+
+Build an image in the local NG:
+docker build -t oi/ptps_insights .
+
+See imgs:
+docker images
+
+Create container:
+docker run -t oi/ptps_insights
+
+Sinc port:
+docker run -p 8501:8501 -t oi/ptps_insights 
+
+Verify context:
+docker context

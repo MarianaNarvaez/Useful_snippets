@@ -1,0 +1,10 @@
+\sql
+\connect root@localhost:3306
+source C:\Users\U569834\Desktop\mysqlsampledatabase\mysqlsampledatabase3.sql
+\use test_db
+show databases;
+SHOW TABLES;
+
+mysql -u root -p -e "select * from test_db.students"
+
+mysql -u root -p test_db -e "select * from students"
