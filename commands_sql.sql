@@ -35,6 +35,9 @@ exec Sp_columns [TblDPaquetes]
 --See object explorer by folders
 F7
 
+--Get the firs day of the week, millennium, century..
+DATE_TRUNC
+
 --Some column, table or schema like:
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME  LIKE '%grupo%Ana%'
 
